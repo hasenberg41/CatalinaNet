@@ -3,14 +3,14 @@ import Dialogs from './components/Dialogs/Dialogs';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import Profile from './components/Profile/Profile';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter , Routes, Route } from 'react-router-dom';
 import Friends from './components/Friends/Friends';
 import Music from './components/Music/Music';
 import Settings from './components/Settings/Settings';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
 
       <div className='App-main'>
 
@@ -31,7 +31,7 @@ function App() {
         </div>
       </div >
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
